@@ -1,25 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import styled from "styled-components";
+import Menu from "./components/Menu";
+import Interview from "./components/Interview";
+import content from "./interviews/content";
+import Tray from "./images/tray_ma.png";
+
+const StyledApp = styled.div``;
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <StyledApp className="App">
+      <Menu />
+      {content.map(item => (
+        <Interview key={item.title} content={item} />
+      ))}
+      <img src={Tray} />
+    </StyledApp>
   );
 }
 
