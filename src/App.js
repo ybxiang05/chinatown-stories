@@ -2,11 +2,8 @@ import React from "react";
 import styled from "styled-components";
 import Cover from "./components/Cover";
 import LandAcknowledgement from "./components/LandAcknowledgement";
-import Menu from "./components/Menu";
 import Accordion from "./components/Accordion";
-import Interview from "./components/Interview";
 import content from "./interviews/Content";
-import Tray from "./images/tray_ma.png";
 
 const StyledApp = styled.div``;
 
@@ -22,6 +19,7 @@ function App() {
           subtitle={interview.subtitle}
           blurb={interview.blurb}
           content={interview.content}
+          key={interview.title}
         />
       ))}
       {/* {content.map(item => (

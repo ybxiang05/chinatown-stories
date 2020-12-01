@@ -18,6 +18,8 @@ const StyledListItemText = styled(ListItemText)`
 const StyledListItem = styled(ListItem)`
   display: flex;
   flex-direction: column;
+  //   height: 80vh;
+  //   overflow: scroll;
 
   p {
     padding: 0 20%;
@@ -25,7 +27,7 @@ const StyledListItem = styled(ListItem)`
 `;
 
 const StyledInterview = styled.div`
-  padding: 0 30%;
+  padding: 0 20%;
 `;
 
 const Accordion = props => {
@@ -50,7 +52,7 @@ const Accordion = props => {
             <p>{blurb}</p>
             <div>
               {contentText.map(paragraph => (
-                <p>{paragraph}</p>
+                <p key={paragraph}>{paragraph}</p>
               ))}
             </div>
           </StyledListItem>
