@@ -18,11 +18,11 @@ const StyledListItemText = styled(ListItemText)`
 const StyledListItem = styled(ListItem)`
   display: flex;
   flex-direction: column;
-  //   height: 80vh;
-  //   overflow: scroll;
+  height: 80vh;
+  overflow: scroll;
 
   p {
-    padding: 0 20%;
+    margin: 0 20%;
   }
 `;
 

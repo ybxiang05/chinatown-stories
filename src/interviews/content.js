@@ -1,4 +1,4 @@
-const content = [
+const Content = [
   {
     type: `interview`,
     title: `William Liu`,
@@ -782,4 +782,4 @@ const content = [
   }
 ];
 
-export default content;
+export default Content;
