@@ -9,7 +9,7 @@ const interviews = [
     *
     W: Chinatown is special to me because I grew up here on Keefer, right across from Strathcona, and I lived there until I was 29. My parents have had businesses in Chinatown since before I was born, so I was literally born into Chinatown. That’s why it’s so special for me to do business here. It’s just coming back to my roots. 
     *
-    CT:  How long has Kam Wai been on Keefer?*
+    CT:  How long has Kam Wai been on Pender?*
     W: Kam Wai was established in 1991. My family had different ventures before Kam Wai as well. My dad’s first venture was a bakery on Keefer Street called 龍鳳茶餐廳 (Long Fong Cafe). After that, my parents veered away from the food business, and they had a Chinese antique and jewelry shop at 545 Gore. Then Kam Wai came after.*
     CT:  What is your fondest memory of being in Chinatown?*
     W: Growing up, my parents wanted me to go to Chinese school. The only school that had Chinese lessons was St. Francis Xavier, which is on Princess Avenue. After Chinese school, which ended at 4:30PM, I would run straight to where my mom worked, and I would sit down with her, and just drink coffee and have baked goods. Normally that would happen at a place like Goldstone. The fondest memory for me is going straight from school to see my mom and grab a bite to eat. It was an everyday ritual for me. That was literally the first meal of the day for my mom, and I got to spend that time with her every single day. It brought me joy everyday.*

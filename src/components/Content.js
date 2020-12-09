@@ -46,12 +46,10 @@ const KamWai = styled.div`
   //
 `;
 const PearlLow = styled.div``;
+
 const Content = props => {
   console.log(interviews[0]);
-  const [open, setOpen] = React.useState(false);
-  const handleClick = () => {
-    setOpen(!open);
-  };
+
   const kamWai = interviews[0];
   const massyBooks = interviews[1];
   const baoBei = interviews[2];
@@ -64,10 +62,6 @@ const Content = props => {
   const mrsLi = interviews[9];
   const pearlLow = interviews[10];
 
-  //const MassyBooks = useInterviewContent();
-  //const BaoBei = useInterviewContent();
-
-  // const contentText = content.split("*");
   return (
     <div>
       <KamWai>
@@ -180,7 +174,6 @@ const Content = props => {
           italicized={mrsLi.italicized}
         />
       </div>
-
       <PearlLow>
         <Interview
           title={pearlLow.title}
@@ -194,35 +187,6 @@ const Content = props => {
       </PearlLow>
     </div>
   );
-  // return (
-  //   <>
-  //     <StyledInterview>
-  //       <ListItem button onClick={handleClick}>
-  //         <StyledListItemText primary={title} secondary={subtitle} />
-  //         {open ? <ExpandLess /> : <ExpandMore />}
-  //       </ListItem>
-  //     </StyledInterview>
-  //     <Collapse in={open} unmountOnExit>
-  //       <List component="div">
-  //         <StyledListItem button>
-  //           <ListItemIcon />
-  //           <p>{blurb}</p>
-  //           <div>
-  //             {contentText.map(paragraph => (
-  //               <InterviewPara
-  //                 key={paragraph}
-  //                 // dangerouslySetInnerHTML={paragraph}
-  //               >
-  //                 {paragraph}
-  //               </InterviewPara>
-  //             ))}
-  //           </div>
-  //         </StyledListItem>
-  //       </List>
-  //     </Collapse>{" "}
-  //   </>
-  // );
 };
 
-// export default Accordion;
 export default Content;

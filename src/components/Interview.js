@@ -34,9 +34,6 @@ const InterviewPara = styled.p`
 `;
 
 const Interview = ({ title, subtitle, blurb, content, backgrounds, links, italicized }) => {
-  const modifyContent = () => {
-    //use find (and map if there are multiple italicized words) to match italicized word list against text inside content, if found, then paste in <span></span>
-  };
   const contentText = content.split("*");
   const [open, setOpen] = React.useState(false);
   const handleClick = () => {
@@ -44,22 +41,6 @@ const Interview = ({ title, subtitle, blurb, content, backgrounds, links, italic
   };
 
   return (
-    // <div>
-    //   <div onClick={handleClick}>
-    //     <h3>{title}</h3>
-    //     <h4>{subtitle}</h4>
-    //   </div>
-    //   {open ? (
-    //     <div>
-    //       <p dangerouslySetInnerHTML={{ __html: blurb }}></p>
-    //       <div>
-    //         {contentText.map(paragraph => (
-    //           <p dangerouslySetInnerHTML={{ __html: paragraph }} key={paragraph}></p>
-    //         ))}
-    //       </div>
-    //     </div>
-    //   ) : null}
-    // </div>
     <>
       <StyledInterview>
         <ListItem button onClick={handleClick}>
@@ -79,7 +60,7 @@ const Interview = ({ title, subtitle, blurb, content, backgrounds, links, italic
             </div>
           </StyledListItem>
         </List>
-      </Collapse>{" "}
+      </Collapse>
     </>
   );
 };
