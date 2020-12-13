@@ -7,7 +7,7 @@ import ExpandMore from "@material-ui/icons/ExpandMore";
 const StyledListItemText = styled(ListItemText)`
   .MuiListItemText-root {
     justify-content: center;
-    margin-left: 200px;
+    margin-left: 20%;
   }
   .MuiListItemText-multiline {
     display: flex;
@@ -18,9 +18,6 @@ const StyledListItemText = styled(ListItemText)`
 const StyledListItem = styled(ListItem)`
   display: flex;
   flex-direction: column;
-  //   height: 80vh;
-  //   overflow: scroll;
-
   p {
     margin: 0 20%;
   }

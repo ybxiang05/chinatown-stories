@@ -2,17 +2,18 @@ import React from "react";
 import styled from "styled-components";
 
 const StyledAck = styled.div`
-  border: 5px solid pink;
-  height: 100vh;
+  background-color: #b50f0f;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  p {
-    align-self: center;
-    margin: 20%;
-    text-align: center;
-  }
+  align-items: center;
+  padding: 0 10%;
+  text-align: center;
+  color: white;
+  text-shadow: 0 2px 2px black;
 `;
+//DESIGN: questioning whether this is too simple, but thinking about how to the point a land acknowledgement should be. Thoughts?
 
 const LandAcknowledgement = props => {
   return (
@@ -27,10 +28,6 @@ const LandAcknowledgement = props => {
         on these unceded lands, allyship means working hard to dismantle colonial systems of
         oppression beyond paying lip service for the rest of our days.
       </p>
-
-      <div onClick={props.handleClick}>
-        <p>Access the publication</p>
-      </div>
     </StyledAck>
   );
 };
