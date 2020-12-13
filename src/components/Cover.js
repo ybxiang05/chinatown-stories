@@ -56,6 +56,7 @@ const StyledTitle = styled.img`
     height: 500px;
     width: 500px;
     top: 50px;
+    left: 10%;
   }
 `;
 const Cover = () => {
