@@ -2,17 +2,17 @@ import React from "react";
 import styled from "styled-components";
 
 const StyledAck = styled.div`
-  background-color: #b50f0f;
+  background-color: #c02327;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0 10%;
+  padding: 0 20%;
   text-align: center;
   color: white;
-  text-shadow: 0 2px 2px black;
 `;
+
 //DESIGN: questioning whether this is too simple, but thinking about how to the point a land acknowledgement should be. Thoughts?
 
 const LandAcknowledgement = props => {
